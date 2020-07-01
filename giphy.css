@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(3, 187, 187);
+    color: whitesmoke;
+    max-width: 700px;
+    margin: auto;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+}
+
+input {
+    border-color: black;
+    text-align: center;
+    height: 1.62rem;
+    width: 20rem;
+    font-weight: bolder;
+    color: rgb(252, 59, 0);
+}
+
+input:hover::placeholder {
+    color: whitesmoke;
+    transition: all .3s;
+}
+
+::placeholder {
+    color: rgb(252, 59, 0);
+}
+
+input:hover {
+    background-color: rgb(252, 59, 0);
+    color: whitesmoke;
+    transition: all .3s;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(252, 59, 0);
+}
+
+h1:hover {
+    color: whitesmoke;
+    transition: all .3s;
+}
+
+#formContainer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+#displayGif {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border-style: solid black;
+}
+
+button {
+    color: whitesmoke;
+    background-color: rgb(252, 59, 0);
+    border-color: black;
+    height: 2rem;
+    width: 6rem;
+    font-weight: bolder;
+}
+
+#searchButton:hover {
+    background-color: whitesmoke;
+    color: rgb(252, 59, 0);
+    width: 6.5rem;
+    height: 2.5rem;
+    transition: all .25s;
+}
+
+#clear:hover {
+    background-color: white;
+    color: rgb(252, 59, 0);
+    width: 6.5rem;
+    height: 2.5rem;
+    transition: all .25s;
+}
+
+#gifGenContainer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    padding-top: 3px;
+}
+
+#gifGenContainer img:hover {
+    width: 275px;
+    height: 275px;
+    padding-left: 2px;
+    padding-right: 2px;
+    transition: all .25s;
+    border: solid rgb(252, 59, 0) 3px;
+    background-color: rgb(252, 59, 0);
+}

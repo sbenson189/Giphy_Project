@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="giphy.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Krona+One&family=Pacifico&display=swap">
+    <title>Giphy Party</title>
+</head>
+<body>
+    <h1 id="pageTitle">Giphy Party</h1>
+    <div id="displayGif">
+        <img src="https://media.giphy.com/media/3oriNNS1lufUZxzBvi/giphy.gif" alt="trying to finish work GIF">
+    </div>
+    <div id="formContainer">
+        <form id="gifSubmitForm">
+            <input type="text" name="search" id="searchBar" placeholder="ENTER GIF CATEGORY HERE!" required>
+            <button id="searchButton" type="submit">Get GIF</button>
+            <span id="clearButtonContainer"><button id="clear" type="button">Clear</button></span>
+        </form>
+    </div>
+    <div id="gifGenContainer">    
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="js.js"></script>    
+</body>
+</html>
